@@ -25,8 +25,8 @@ function addUserPositionTrans(key, value) {
 function addTransForm($body,key,label,value) {
   $body.append(
     '<div class="form-group" id="trans_'+key+'">' +
-    '    <label for="inputEmail3" class="col-sm-2 control-label">'+label+'</label>\n' +
-    '    <div class="col-sm-10">\n' +
+    '    <label for="inputEmail3" class="col-sm-3 control-label">'+label+'</label>\n' +
+    '    <div class="col-sm-9">\n' +
     '      <div class="input-group">\n' +
     '        <input type="text" class="form-control" id="inputEmail3" name="trans_'+key+'" value="'+value+'">\n' +
     '        <span class="input-group-btn">\n' +
