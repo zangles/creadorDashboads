@@ -31,5 +31,10 @@ class DefaultController extends Controller
     {
         $creatorService = $this->get('creator.creatorService');
         $creatorService->createDashbord($request);
+
+        $filePath = $this->get('kernel')->getRootDir().'/generated/dashboard.yml';
+        $content = file_get_contents($filePath);
+
+        return $this->render('CreadorBundle::show.html.twig', ['dashboardYML' => trim($content)]);
     }
 }

@@ -22,11 +22,17 @@ function addUserPositionTrans(key, value) {
   addTransForm($body,key,'USER_POSITION_'+key,value);
 }
 
+function addFilterTrans(key, value) {
+  value = value || '';
+  $body = $('.dictionary');
+  addTransForm($body,key,'FILTER_'+key,value);
+}
+
 function addTransForm($body,key,label,value) {
   $body.append(
     '<div class="form-group" id="trans_'+key+'">' +
-    '    <label for="inputEmail3" class="col-sm-3 control-label">'+label+'</label>\n' +
-    '    <div class="col-sm-9">\n' +
+    '    <label for="inputEmail3" class="col-sm-5 control-label">'+label+'</label>\n' +
+    '    <div class="col-sm-7">\n' +
     '      <div class="input-group">\n' +
     '        <input type="text" class="form-control" id="inputEmail3" name="trans_'+key+'" value="'+value+'">\n' +
     '        <span class="input-group-btn">\n' +

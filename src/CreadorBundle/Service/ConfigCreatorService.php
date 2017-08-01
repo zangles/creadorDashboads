@@ -38,22 +38,28 @@ class ConfigCreatorService
     public function createDashboardYML()
     {
         $clientName = $this->request->get('clientName');
+        $withTest = (!is_null($this->request->get('test')));
         $hierarchy = json_decode($this->request->get('hierarchyStructure'), true);
+        $userPositions = $this->request->get('usertypes');
+        $filters = $this->request->get('filters');
 
-        $array = array(
-            $clientName => array(
-                'users' => $this->createUsersTree(),
-                'metrics' => $this->createMetricsTree($hierarchy),
-                'region_metrics' => $this->createRegionMetricsTree(),
-                'themes' => $this->createThemeTree(),
-                'colors' => $this->createColorsTree(),
-                'country_codes' => $this->createCountryCodesTree(),
-                'dictionary' => $this->createDictionaryTree($hierarchy),
-            ),
-            '_base' => $this->create_BaseConfig()
+        $clientConfig = array(
+            'users' => $this->createUsersTree(),
+            'metrics' => $this->createMetricsTree($hierarchy, $filters),
+            'region_metrics' => $this->createRegionMetricsTree(),
+            'themes' => $this->createThemeTree(),
+            'colors' => $this->createColorsTree(),
+            'country_codes' => $this->createCountryCodesTree(),
+            'dictionary' => $this->createDictionaryTree($hierarchy, $userPositions, $filters),
         );
 
-        $yaml = Yaml::dump($array, 6);
+        $config[$clientName] = $clientConfig;
+        if ($withTest) {
+            $config['test'] = $clientConfig;
+        }
+        $config['_base'] = $this->create_BaseConfig();
+
+        $yaml = Yaml::dump($config, 6);
 
         $filePath = $this->kernel->getRootDir().'/generated/dashboard.yml';
         file_put_contents($filePath, $yaml);
@@ -87,10 +93,10 @@ class ConfigCreatorService
     //                        METRICS
     //********************************************************
 
-    private function createMetricsTree($hierarchy)
+    private function createMetricsTree($hierarchy, $filters)
     {
         $metrics = array(
-            'filter' => $this->getMetricFilterConfig(),
+            'filter' => $this->getMetricFilterConfig($filters),
             'commentFilterField' => $this->getMetricCommentFilterFieldConfig(),
             'lowerIsBetter' => $this->getMetricLowerIsBetterConfig(),
             'definitions' => $this->getMetricDefinitionsConfig($hierarchy),
@@ -103,11 +109,15 @@ class ConfigCreatorService
         return $metrics;
     }
 
-    private function getMetricFilterConfig()
+    private function getMetricFilterConfig($filters)
     {
-        return array(
-            'GR' => 'FILTER_GR'
-        );
+        $filtersConfig = [];
+
+        foreach ($filters as $filter) {
+            $filtersConfig[$filter] = 'FILTER_'.$filter;
+        }
+
+        return $filtersConfig;
     }
 
     private function getMetricCommentFilterFieldConfig()
@@ -209,21 +219,41 @@ class ConfigCreatorService
     //                        DICCIONARIO
     //********************************************************
 
-    private function createDictionaryTree($hierarchy)
+    private function createDictionaryTree($hierarchy, $userPositions, $filters)
     {
         $dictionary = array(
-            'es' => $this->getDictionaryESConfig($hierarchy)
+            'es' => $this->getDictionaryESConfig($hierarchy, $userPositions, $filters)
         );
 
         return $dictionary;
     }
 
-    private function getDictionaryESConfig($hierarchy)
+    private function getDictionaryESConfig($hierarchy, $userPositions, $filters)
     {
         return array_merge(
+            $this->getHierarchyTransConfig($hierarchy),
             $this->getBaseDicctionaryConfig(),
-            $this->getHierarchyTransConfig($hierarchy)
+            $this->getUserPositionsTransConfig($userPositions),
+            $this->getFiltersTransConfig($filters)
         );
+    }
+
+    private function getUserPositionsTransConfig($userPositions)
+    {
+        $userPositionsTrans = [];
+        foreach ($userPositions as $userPosition) {
+            $userPositionsTrans['USER_POSITION_'.$userPosition] =  $this->request->get('trans_'.$userPosition);
+        }
+        return $userPositionsTrans;
+    }
+
+    private function getFiltersTransConfig($filters)
+    {
+        $filterTrans = [];
+        foreach ($filters as $filter) {
+            $filterTrans['FILTER_'.$filter] =  $this->request->get('trans_'.$filter);
+        }
+        return $filterTrans;
     }
 
     private function getHierarchyTransConfig($hierarchy)
@@ -549,16 +579,6 @@ class ConfigCreatorService
             'MESSAGE_EXPORT_REPORT_HIERARCHY_OK' => 'Se agendó la tarea de exportación de reportes para toda la jerarquía. Al finalizar, se le enviará un email donde podrá descargar todos los reportes.',
             'MESSAGE_EXPORT_REPORT_HIERARCHY_ALREADY_EXIST' => 'Ya tiene agendada una tarea de exportación',
             'MESSAGE_EXPORT_CASES' => 'Se ha iniciado la descarga de los datos de casos, este proceso puede tardar varios minutos, espere por favor.',
-            'USER_POSITION_STORE' => 'Centro de Atención',
-            'USER_POSITION_ZONAL' => 'Zonal',
-            'USER_POSITION_AGENCY' => 'Agencia',
-            'USER_POSITION_DIRECTOR' => 'Director',
-            'USER_POSITION_REGIONAL_DIRECTOR' => 'Director Regional',
-            'USER_POSITION_COUNTRY' => 'País',
-            'USER_POSITION_REGION' => 'Región',
-            'USER_POSITION_COUNTRY_REGION' => 'Región de país',
-            'USER_POSITION_FRANCHISEE' => 'Franquiciado',
-            'USER_POSITION_OUTSIDER' => 'Externo',
             'MENU_SUMMARY' => 'Resumen',
             'MENU_REPORT' => 'Reporte',
             'MENU_DIMENSION' => 'Indicadores',

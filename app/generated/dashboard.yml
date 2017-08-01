@@ -1,42 +1,20 @@
-mutualGR:
+ffff:
     users:
         types:
             - REGION
             - COUNTRY
             - STORE
             - NON_HIERARCHICAL
-            - AGENCY
-            - ZONAL
-            - COUNTRY_REGION
-            - GROUP_STORE
     metrics:
         filter:
-            GR: FILTER_GR
+            GT: FILTER_GT
         commentFilterField: canal
         lowerIsBetter:
             - RP_TI
         definitions:
             SAT: METRIC_SAT
-            ATE: METRIC_ATE
-            ATE_AMA: METRIC_ATE_AMA
-            ATE_CLA: METRIC_ATE_CLA
-            EFE: METRIC_EFE
-            EFE_FAC: METRIC_EFE_FAC
-            EFE_RES: METRIC_EFE_RES
-            TIE: METRIC_TIE
-            TIE_PLA: METRIC_TIE_PLA
-            NPS: METRIC_NPS
         hierarchy:
             SAT: 
-            ATE:
-                ATE_AMA: 
-                ATE_CLA: 
-            EFE:
-                EFE_FAC: 
-                EFE_RES: 
-            TIE:
-                TIE_PLA: 
-            NPS: 
         competitors:
             definitions: 
             hierarchy: 
@@ -52,6 +30,7 @@ mutualGR:
     country_codes: 
     dictionary:
         es:
+            METRIC_SAT: Satisfacción
             APP_NAME: 'Centro Atención de Salud'
             FILTER_TITLE: Canal
             FILTER_CT: Telefónico
@@ -295,16 +274,11 @@ mutualGR:
             REGION_NAME_LATAM: Latinoamérica
             NO_DATA: 'No hay datos disponibles'
             COMMENT_SEARCH_RESULTS: 'Se encontraron <%= results %> resultados'
-            METRIC_SAT: Satisfacción
-            METRIC_ATE: Atención
-            METRIC_ATE_AMA: 'Amabilidad y cortesía en el trato'
-            METRIC_ATE_CLA: 'Claridad de la respuesta entregada'
-            METRIC_EFE: Efectividad
-            METRIC_EFE_FAC: 'Facilidad para expresar su consulta o reclamo'
-            METRIC_EFE_RES: '¿La respuesta entregada resolvió su requerimiento?'
-            METRIC_TIE: Tiempos
-            METRIC_TIE_PLA: 'Plazo en que recibió la respuesta'
-            METRIC_NPS: NPS
+            USER_POSITION_REGION: Region
+            USER_POSITION_COUNTRY: Pais
+            USER_POSITION_STORE: Tienda
+            USER_POSITION_NON_HIERARCHICAL: NON_HIERARCHICAL
+            FILTER_GT: ffff
 _base:
     dictionary:
         es:
@@ -326,16 +300,6 @@ _base:
             MESSAGE_EXPORT_REPORT_HIERARCHY_OK: 'Se agendó la tarea de exportación de reportes para toda la jerarquía. Al finalizar, se le enviará un email donde podrá descargar todos los reportes.'
             MESSAGE_EXPORT_REPORT_HIERARCHY_ALREADY_EXIST: 'Ya tiene agendada una tarea de exportación'
             MESSAGE_EXPORT_CASES: 'Se ha iniciado la descarga de los datos de casos, este proceso puede tardar varios minutos, espere por favor.'
-            USER_POSITION_STORE: 'Centro de Atención'
-            USER_POSITION_ZONAL: Zonal
-            USER_POSITION_AGENCY: Agencia
-            USER_POSITION_DIRECTOR: Director
-            USER_POSITION_REGIONAL_DIRECTOR: 'Director Regional'
-            USER_POSITION_COUNTRY: País
-            USER_POSITION_REGION: Región
-            USER_POSITION_COUNTRY_REGION: 'Región de país'
-            USER_POSITION_FRANCHISEE: Franquiciado
-            USER_POSITION_OUTSIDER: Externo
             MENU_SUMMARY: Resumen
             MENU_REPORT: Reporte
             MENU_DIMENSION: Indicadores

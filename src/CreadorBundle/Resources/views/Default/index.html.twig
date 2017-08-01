@@ -1,93 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .list-group-item {
-            color: black;
-        }
-    </style>
-</head>
+{% extends "CreadorBundle::base.html.twig" %}
 
-<body>
-
-<div class="container">
+{% block body %}
     <div class="starter-template">
-        <form action="{{ path('creador_default_create') }}" id="createForm" method="post">
-            <div class="row">
-                <div class="col-md-12 text-right">
-                    <button class="btn btn-primary" id="sendForm"> Crear YML</button>
-                </div>
+        <div class="panel panel-default">
+            <div class="panel-heading text-center">
+                <h4>Dashboard Creator</h4>
             </div>
+            <div class="panel-body">
+                <form action="{{ path('creador_default_create') }}" id="createForm" method="post">
+                    <div class="row">
+                        <div class="col-md-12 text-right">
+                            <button class="btn btn-success" id="sendForm"> Create YML</button>
+                        </div>
+                    </div>
 
-            <div class="form-group">
-                <label for="exampleInputName2">Client Name</label>
-                <input type="text" class="form-control" id="clientName" name="clientName" placeholder="Client Name">
+                    <div class="form-group">
+                        <label for="exampleInputName2">Client Name</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="clientName" name="clientName" placeholder="Client Name">
+                            <span class="input-group-addon">
+                                <input type="checkbox" name="test" value="test" checked> Duplicate content for Test
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Dashboard Config</div>
+                            <div class="panel-body">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#filter" aria-controls="home" role="tab" data-toggle="tab">Filtros</a></li>
+                                    <li role="presentation"><a href="#userPosition" aria-controls="home" role="tab" data-toggle="tab">User Positions</a></li>
+                                    <li role="presentation"><a href="#hierarchy" aria-controls="profile" role="tab" data-toggle="tab">Hierarchy</a></li>
+                                    <li role="presentation"><a href="#dictionary" aria-controls="messages" role="tab" data-toggle="tab">Dictionary</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="filter">
+                                        <br><br>
+                                        {% include 'partials/filters.html' %}
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="userPosition">
+                                        <br><br>
+                                        {% include 'partials/users.html' %}
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="hierarchy">
+                                        <br><br>
+                                        {% include 'partials/hierarchy.html' %}
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="dictionary">
+                                        <br><br>
+                                        {% include 'partials/dictionary.html' %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div>
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">User Positions</a></li>
-                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Hierarchy</a></li>
-                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Dictionary</a></li>
-                </ul>
-                <!-- Tab panes -->
-                <div class="tab-content" style="border:1px solid darkgrey">
-                    <div role="tabpanel" class="tab-pane active" id="home">
-                        <br><br>
-                        {% include 'partials/users.html' %}
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="profile">
-                        <br><br>
-                        {% include 'partials/hierarchy.html' %}
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="messages">
-                        <br><br>
-                        {% include 'partials/dictionary.html' %}
-                    </div>
-                </div>
-                <br><br>
-
-            </div>
-        </form>
+        </div>
     </div>
-</div><!-- /.container -->
+{% endblock %}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="{{ asset("bundles/creador/js/dynamicTree.js") }}"></script>
-<script src="{{ asset("bundles/creador/js/dictionary.js") }}"></script>
-<script src="{{ asset("bundles/creador/js/users.js") }}"></script>
-<script>
-  var dictionary = {{ dictionary | raw }};
+{% block javascript %}
+    <script>
+      var dictionary = {{ dictionary | raw }};
 
-  $(document).ready(function(){
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-      e.target // newly activated tab
-      e.relatedTarget // previous active tab
-    })
+      $(document).ready(function(){
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+          e.target // newly activated tab
+          e.relatedTarget // previous active tab
+        })
 
-    $('#sendForm').click(function(){
-      $("#hierarchyStructure").val(getStructure());
-      var clientName = $("#clientName").val();
-      if (clientName != "") {
-        $("#createForm").submit();
-      } else {
-        alert('Falta el Client Name');
-        return false;
-      }
+        $('#sendForm').click(function(){
+          $("#hierarchyStructure").val(getStructure());
+          var clientName = $("#clientName").val();
+          if (clientName != "") {
+            $("#createForm").submit();
+          } else {
+            alert('Falta el Client Name');
+            return false;
+          }
 
-    });
+        });
 
-    $.each(dictionary, function (key, value) {
-        addTrans(key,value, true);
-    });
+        $.each(dictionary, function (key, value) {
+          addTrans(key,value, true);
+        });
 
-  });
-</script>
-
-</body>
-</html>
+      });
+    </script>
+{% endblock %}
