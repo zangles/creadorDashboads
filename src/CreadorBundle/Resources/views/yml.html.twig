@@ -6,7 +6,7 @@
     </div>
     <div class="col-sm-8">
         <div class="title-action">
-            <button class="btn btn-success" id="sendForm"> Create YML</button>
+            <button class="btn btn-success" id="sendForm"> Generate & Download YML</button>
         </div>
     </div>
 {% endblock %}
@@ -41,7 +41,7 @@
                             <li role="presentation"><a href="#dictionary" aria-controls="messages" role="tab" data-toggle="tab">Dictionary</a></li>
                         </ul>
                         <!-- Tab panes -->
-                        <div class="tab-content" style="height: 550px; max-height: 550px; overflow-y: auto; overflow-x: hidden ">
+                        <div class="tab-content" style="height: 490px; max-height: 490px; overflow-y: auto; overflow-x: hidden ">
                             <div role="tabpanel" class="tab-pane active" id="filter">
                                 {% include 'partials/filters.html' %}
                             </div>
@@ -70,13 +70,43 @@
     <script src="{{ asset("bundles/creador/js/filters.js") }}"></script>
 
     <script>
-      var dictionary = {{ dictionary | raw }};
+
+      filter.init();
+
+      var dictionaryTrans = {{ dictionary | raw }};
 
       $(document).ready(function(){
+
+        {% if yml is defined %}
+
+            var yml = JSON.parse('{{ yml | raw }}');
+
+            clientName = Object.keys(yml)[0];
+
+            $("#clientName").val(clientName);
+            client = yml[clientName];
+
+            $(client.users.types).each(function(k,v){
+              addUser(v, true, client.dictionary.es['USER_POSITION_'+v]);
+            });
+
+            $(client.metrics.filter).each(function(k,v){
+              var filterKeys = Object.keys(v);
+              var filterValues = Object.values(v);
+              filter.addFilter(filterKeys[0], client.dictionary.es[ filterValues[0] ] )
+            });
+
+        {% else %}
+            addUser('REGION', false, 'Region');
+            addUser('COUNTRY', false, 'Pais');
+            addUser('STORE', false, 'Tienda');
+            addUser('NON_HIERARCHICAL', false, 'NON_HIERARCHICAL');
+        {% endif %}
+
         $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
           e.target // newly activated tab
           e.relatedTarget // previous active tab
-        })
+        });
 
         $('#sendForm').click(function(){
           $("#hierarchyStructure").val(getStructure());
@@ -90,7 +120,7 @@
 
         });
 
-        $.each(dictionary, function (key, value) {
+        $.each(dictionaryTrans, function (key, value) {
           addTrans(key,value, true);
         });
 
