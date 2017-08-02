@@ -1,0 +1,113 @@
+{% extends "CreadorBundle:Template:base.html.twig" %}
+
+{% block title %}
+    <div class="col-sm-4">
+        <h2>Dashboard YML</h2>
+    </div>
+    <div class="col-sm-8">
+        <div class="title-action">
+            <button class="btn btn-success" id="sendForm"> Create YML</button>
+        </div>
+    </div>
+{% endblock %}
+
+{% block body %}
+    <div class="starter-template">
+        <form action="{{ path('creador_default_create') }}" id="createForm" method="post">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Dashboard Config</h5>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="exampleInputName2">Client Name</label>
+                                <input type="text" class="form-control" id="clientName" name="clientName" placeholder="Client Name">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="checkbox" class="i-checks" name="test" value="test" checked> Duplicate content for Test
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-body" style="">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#filter" aria-controls="home" role="tab" data-toggle="tab">Filtros</a></li>
+                            <li role="presentation"><a href="#userPosition" aria-controls="home" role="tab" data-toggle="tab">User Positions</a></li>
+                            <li role="presentation"><a href="#hierarchy" aria-controls="profile" role="tab" data-toggle="tab">Hierarchy</a></li>
+                            <li role="presentation"><a href="#dictionary" aria-controls="messages" role="tab" data-toggle="tab">Dictionary</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content" style="height: 550px; max-height: 550px; overflow-y: auto; overflow-x: hidden ">
+                            <div role="tabpanel" class="tab-pane active" id="filter">
+                                {% include 'partials/filters.html' %}
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="userPosition">
+                                {% include 'partials/users.html' %}
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="hierarchy">
+                                {% include 'partials/hierarchy.html' %}
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="dictionary">
+                                {% include 'partials/dictionary.html' %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+
+{% block javascript %}
+    <script src="{{ asset("bundles/creador/js/plugins/iCheck/icheck.min.js") }}"></script>
+    <script src="{{ asset("bundles/creador/js/dynamicTree.js") }}"></script>
+    <script src="{{ asset("bundles/creador/js/dictionary.js") }}"></script>
+    <script src="{{ asset("bundles/creador/js/users.js") }}"></script>
+    <script src="{{ asset("bundles/creador/js/filters.js") }}"></script>
+
+    <script>
+      var dictionary = {{ dictionary | raw }};
+
+      $(document).ready(function(){
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+          e.target // newly activated tab
+          e.relatedTarget // previous active tab
+        })
+
+        $('#sendForm').click(function(){
+          $("#hierarchyStructure").val(getStructure());
+          var clientName = $("#clientName").val();
+          if (clientName != "") {
+            $("#createForm").submit();
+          } else {
+            alert('Falta el Client Name');
+            return false;
+          }
+
+        });
+
+        $.each(dictionary, function (key, value) {
+          addTrans(key,value, true);
+        });
+
+        $('.i-checks').iCheck({
+          checkboxClass: 'icheckbox_square-green',
+          radioClass: 'iradio_square-green'
+        });
+
+      });
+    </script>
+{% endblock %}
+
+{% block style %}
+    <link href="{{ asset('bundles/creador/css/plugins/iCheck/custom.css') }}" rel="stylesheet">
+    <style>
+        .list-group-item {
+            color: black;
+        }
+    </style>
+{% endblock %}

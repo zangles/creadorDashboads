@@ -36,7 +36,7 @@ function addTransForm($body,key,label,value) {
     '      <div class="input-group">\n' +
     '        <input type="text" class="form-control" id="inputEmail3" name="trans_'+key+'" value="'+value+'">\n' +
     '        <span class="input-group-btn">\n' +
-    '          <button class="btn btn-danger deleteTrans" data-key="'+key+'" type="button">X</button>\n' +
+    '          <button class="btn btn-danger deleteTrans" data-key="'+key+'" type="button"><i class="fa fa-trash" aria-hidden="true"></i>\n</button>\n' +
     '        </span>\n' +
     '      </div>\n' +
     '    </div>\n' +
@@ -55,7 +55,29 @@ function deleteTrans(key) {
 
 $("#addTrans").click(function(){
   var transName = $("#trans-name").val();
+  var transValue = $("#trans-value").val();
   if (transName != '') {
-    addTrans(transName,'');
+    addTrans(transName,transValue);
   }
+});
+
+$("#searchTrans").keyup(function(){
+    searchTrans();
+});
+
+function searchTrans(){
+  var search = $("#searchTrans").val().toUpperCase();
+  if (search != '') {
+    if (search.length >= 3){
+      $(".divTraducciones .form-group").hide();
+      $(".divTraducciones .form-group .control-label:contains('"+search+"')").parent().show();
+    }
+  } else {
+    $(".divTraducciones .form-group").show();
+  }
+}
+
+$("#clearTrans").click(function(){
+  $("#searchTrans").val('');
+  searchTrans();
 });

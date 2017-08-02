@@ -12,7 +12,7 @@ function addFilter(filterName) {
   $body.append('<div class="input-group">\n' +
     '        <input type="text" class="form-control" name="filters[]" value="'+filterName+'">\n' +
     '        <span class="input-group-btn">\n' +
-    '            <button class="btn btn-danger deleteFilter" data-text="'+filterName+'" type="button">X</button>\n' +
+    '            <button class="btn btn-danger deleteFilter" data-text="'+filterName+'" type="button"><i class="fa fa-trash" aria-hidden="true"></i>\n</button>\n' +
     '        </span>\n' +
     '    </div>');
 }

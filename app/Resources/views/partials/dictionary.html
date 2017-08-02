@@ -1,17 +1,43 @@
-<label for="trans-name">Translation Key</label>
-<div class="input-group">
-    <input type="text" class="form-control" id="trans-name" placeholder="Translation Key">
-    <span class="input-group-btn">
-        <button class="btn btn-success" id="addTrans" type="button"> Add Trans </button>
-    </span>
-</div>
+<div class="ibox">
+    <div class="ibox-content">
+        <div class="form-group">
+            <label for="trans-name">New Translation</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="trans-name" placeholder="Translation Key">
+                <span class="input-group-btn" style="width:0px;"></span>
+                <input type="text" class="form-control" id="trans-value" value="" placeholder="Translation Value"/>
+                <span class="input-group-btn">
+                    <button class="btn btn-success" id="addTrans" type="button"> Add Trans </button>
+                </span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="trans-name">Search</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchTrans" placeholder="Search">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" id="clearTrans" type="button"><i class="fa fa-eraser" aria-hidden="true"></i></button>
+                </span>
+            </div>
+        </div>
 
-<h2>Trans</h2>
-<div class="dictionary form-horizontal">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Added Translations</h5>
+            </div>
+            <div class="ibox-content">
+                <div class="dictionary form-horizontal divTraducciones"></div>
+            </div>
+        </div>
 
-</div>
-<hr>
-<h2>Preexistentes</h2>
-<div class="preexistente form-horizontal">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Preexist Translations</h5>
+            </div>
+            <div class="ibox-content">
+                <div class="preexistente form-horizontal divTraducciones"></div>
+            </div>
+        </div>
 
+    </div>
 </div>

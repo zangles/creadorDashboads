@@ -14,25 +14,22 @@ function getItems($root, root) {
 }
 
 function addItem($node,text) {
-  $($node).append('<div class="item list-group-item" id="'+text+'">'+text+'<button class="btn btn-danger removeItem" data-text="'+text+'">X</button></div>');
+  $($node).append('<div class="item list-group-item" id="'+text+'">'+text+'<button class="btn btn-danger removeItem" data-text="'+text+'"><i class="fa fa-trash" aria-hidden="true"></i></button></div>');
   addHierarchyTrans(text);
 }
 
 $("#addChildNode").click(function(){
-  var parent = $(this).parents('.list-group');
-  var node = $(parent).find('.active');
+  var node = $(".hierarchyTree").find('.active');
   if (node.length > 0) {
     addItem($(node), $("#node-name").val());
   }
 });
 
 $("#addBaseNode").click(function(){
+  $(".hierarchyTree").find('.item').removeClass('active');
 
-  $('.list-group').find('.item').removeClass('active');
-
-
-  var parent = $(this).parents('.list-group');
-  addItem($(parent), $("#node-name").val());
+  addItem($(".hierarchyTree"), $("#node-name").val());
+  console.debug($("#"+$("#node-name").val()));
   $("#"+$("#node-name").val()).addClass('active');
 
 });
@@ -42,14 +39,13 @@ $("#getStructure").click(function(){
 });
 
 function getStructure() {
-  var $body = $('.tree');
+  var $body = $('.hierarchyTree');
   var tree = getItems($body);
   return JSON.stringify(tree, null, 4);
 }
 
 $("body").on('click', '.item', function(){
-  var parent = $(this).parents('.list-group');
-  $(parent).find('.item').removeClass('active');
+  $(".hierarchyTree").find('.item').removeClass('active');
   $(this).addClass('active')
 });
 

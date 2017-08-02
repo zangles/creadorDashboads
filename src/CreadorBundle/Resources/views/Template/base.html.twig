@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Opinaia | Dashboard Creator</title>
+
+    <link href="{{ asset('bundles/creador/css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/creador/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('bundles/creador/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/creador/css/style.css') }}" rel="stylesheet">
+
+    {% block style %}
+    {% endblock %}
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        {% include 'CreadorBundle:Template:menu.html.twig' %}
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+            {% include 'CreadorBundle:Template:navbar.html.twig' %}
+        </div>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            {% block title %}
+            {% endblock %}
+        </div>
+        <div class="wrapper wrapper-content">
+            {% block body %}
+            {% endblock %}
+        </div>
+
+        <div class="footer">
+            {% include 'CreadorBundle:Template:footer.html.twig' %}
+        </div>
+
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="{{ asset('bundles/creador/js/jquery-2.1.1.js') }}"></script>
+<script src="{{ asset('bundles/creador/js/bootstrap.js') }}"></script>
+<script src="{{ asset('bundles/creador/js/plugins/metisMenu/jquery.metisMenu.js') }}"></script>
+<script src="{{ asset('bundles/creador/js/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="{{ asset('bundles/creador/js/inspinia.js') }}"></script>
+<script src="{{ asset('bundles/creador/js/plugins/pace/pace.min.js') }}"></script>
+
+{% block javascript %}
+{% endblock %}
+
+</body>
+
+</html>
