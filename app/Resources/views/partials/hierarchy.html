@@ -1,13 +1,28 @@
-<div class="item list-group tree form-inline" id="0">
-    <label for="node-name">Hierarchy Name</label>
-    <div class="input-group">
-        <input type="text" class="form-control" id="node-name" placeholder="Hierarchy Name">
-        <span class="input-group-btn">
-        <button class="btn btn-primary" id="addChildNode" type="button"> Add Child </button>
-        <button class="btn btn-success" id="addBaseNode"  type="button"> Add Element </button>
-      </span>
-    </div>
-    <br><br>
+<div class="ibox">
+    <div class="ibox-content">
+        <div class="item list-group tree form-inline" id="0">
+            <div class="form-group">
+                <label for="node-name">Hierarchy Name</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="node-name" placeholder="Hierarchy Name">
+                    <span class="input-group-btn">
+                    <button class="btn btn-primary" id="addChildNode" type="button"> Add Child </button>
+                    <button class="btn btn-success" id="addBaseNode"  type="button"> Add Element </button>
+                  </span>
+                </div>
+            </div>
 
-    <input type="hidden" name="hierarchyStructure" id="hierarchyStructure">
+            <input type="hidden" name="hierarchyStructure" id="hierarchyStructure">
+        </div>
+
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Added Hierarchy </h5>
+            </div>
+            <div class="ibox-content">
+                <div class="hierarchyTree">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

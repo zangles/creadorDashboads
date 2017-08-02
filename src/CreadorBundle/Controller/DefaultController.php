@@ -20,7 +20,7 @@ class DefaultController extends Controller
         $configCreatorService = $this->get('creator.configCreatorService');
         $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
 
-        return $this->render('CreadorBundle:Default:index.html.twig', ['dictionary' => $dictionary]);
+        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary]);
     }
 
     /**
