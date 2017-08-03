@@ -6,6 +6,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Symfony\Component\HttpFoundation\ResponseHeaderBag;
 use Symfony\Component\Yaml\Yaml;
 
 class DefaultController extends Controller
@@ -17,10 +19,14 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+        $gitLabService = $this->get('creator.gitLabService');
+
+        $projects = $gitLabService->getAllProjects();
+
         $configCreatorService = $this->get('creator.configCreatorService');
         $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
 
-        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary]);
+        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary, 'projects' => $projects]);
     }
 
     /**
@@ -35,6 +41,26 @@ class DefaultController extends Controller
         $filePath = $this->get('kernel')->getRootDir().'/generated/dashboard.yml';
         $content = file_get_contents($filePath);
 
-        return $this->render('CreadorBundle::show.html.twig', ['dashboardYML' => trim($content)]);
+        $response = new BinaryFileResponse($filePath);
+        $response->setContentDisposition(ResponseHeaderBag::DISPOSITION_ATTACHMENT);
+
+        return $response;
+    }
+
+    /**
+     * @Route("/test")
+     * @Method("GET")
+     */
+    public function testAction()
+    {
+
+        $filePath = $this->get('kernel')->getRootDir().'/generated/dashboard.yml';
+        $yml = json_encode(Yaml::parse(file_get_contents($filePath)));
+
+        $configCreatorService = $this->get('creator.configCreatorService');
+        $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
+
+        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary, 'yml'  => $yml]);
+
     }
 }

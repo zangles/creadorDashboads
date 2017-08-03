@@ -1,561 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98184e6f-701f-46bb-91fd-f44e6aaaba97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/congruent_pentagon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/header-profile-skin-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/header-profile-skin-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/header-profile-skin-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/header-profile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/otis_redding.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/shattered.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/patterns/triangular.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/img/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/img/play-pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/img/video-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/chosen/chosen-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/chosen/chosen-sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/iCheck/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/iCheck/green@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/bootstrap-colorpicker/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/bootstrap-colorpicker/hue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/bootstrap-colorpicker/saturation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/sort.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/sprite-skin-flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/sprite-skin-flat2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/sprite-skin-nice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/sprite-skin-simple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/spritemap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/images/spritemap@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jsTree/32px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jsTree/39px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jsTree/40px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jsTree/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/dataTables/swf/copy_csv_xls.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/dataTables/swf/copy_csv_xls_pdf.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/gritter/images/gritter-light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/gritter/images/gritter-long.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/gritter/images/gritter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/gritter/images/ie-spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/justified-gallery/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/css/blueimp-gallery-indicator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/css/blueimp-gallery-video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/css/blueimp-gallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/css/blueimp-gallery.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/css/demo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/img/error.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/img/play-pause.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/blueimp/img/video-play.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/bootstrap-rtl/bootstrap-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/bootstrap-rtl/bootstrap-rtl.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/bootstrap-rtl/bootstrap-rtl.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/chosen/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/codemirror/ambiance.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/codemirror/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/colorpicker/bootstrap-colorpicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/cropper/cropper.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/dataTables/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/dataTables/dataTables.responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/dataTables/dataTables.tableTools.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/datapicker/datepicker3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/dropzone/basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/dropzone/dropzone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/fullcalendar/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/fullcalendar/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/iCheck/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/ionRangeSlider/ion.rangeSlider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/ionRangeSlider/ion.rangeSlider.skinNice.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/ionRangeSlider/ion.rangeSlider.skinSimple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jasny/jasny-bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jqGrid/ui.jqgrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jsTree/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/jsTree/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/morris/morris-0.4.3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/nouslider/jquery.nouislider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/social-buttons/social-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/steps/jquery.steps.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/summernote/summernote-bs3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/summernote/summernote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/switchery/switchery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/plugins/toastr/toastr.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/inspinia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/jquery-2.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/jquery-ui-1.10.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/jquery-ui.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/blueimp/jquery.blueimp-gallery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/chartJs/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/chosen/chosen.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/apl/apl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/apl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/asterisk/asterisk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/asterisk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/clike/clike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/clike/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/clike/scala.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/clojure/clojure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/clojure/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/cobol/cobol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/cobol/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/coffeescript/coffeescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/coffeescript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/commonlisp/commonlisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/commonlisp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/css/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/css/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/css/less.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/css/less_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/css/scss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/css/scss_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/css/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/cypher/cypher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/cypher/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/d/d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/d/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/diff/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/diff/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/django/django.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/django/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/dtd/dtd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/dtd/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/dylan/dylan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/dylan/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/ecl/ecl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/ecl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/eiffel/eiffel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/eiffel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/erlang/erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/erlang/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/fortran/fortran.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/fortran/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/gas/gas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/gas/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/gfm/gfm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/gfm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/gfm/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/gherkin/gherkin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/gherkin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/go/go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/go/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/groovy/groovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/groovy/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/haml/haml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/haml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/haml/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/haskell/haskell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/haskell/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/haxe/haxe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/haxe/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/htmlembedded/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/htmlmixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/http/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/http/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/jade/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/jade/jade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/javascript/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/javascript/json-ld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/javascript/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/javascript/typescript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/jinja2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/jinja2/jinja2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/julia/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/julia/julia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/kotlin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/kotlin/kotlin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/livescript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/livescript/livescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/lua/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/lua/lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/markdown/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/markdown/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/meta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/mirc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/mirc/mirc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/mllike/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/mllike/mllike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/modelica/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/modelica/modelica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/nginx/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/nginx/nginx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/ntriples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/ntriples/ntriples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/octave/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/octave/octave.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/pascal/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/pascal/pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/pegjs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/pegjs/pegjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/perl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/perl/perl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/php/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/php/php.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/php/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/pig/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/pig/pig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/properties/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/properties/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/puppet/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/puppet/puppet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/python/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/python/python.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/q/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/q/q.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/r/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/r/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/rpm/changes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/rpm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/rpm/rpm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/rst/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/rst/rst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/ruby/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/ruby/ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/ruby/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/rust/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/rust/rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sass/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sass/sass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/scheme/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/scheme/scheme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/shell/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/shell/shell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/shell/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sieve/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sieve/sieve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/slim/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/slim/slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/slim/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/smalltalk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/smalltalk/smalltalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/smarty/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/smarty/smarty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/smartymixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/smartymixed/smartymixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/solr/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/solr/solr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sparql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sparql/sparql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/sql/sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/stex/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/stex/stex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/stex/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tcl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tcl/tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/textile/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/textile/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/textile/textile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tiddlywiki/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tiki/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tiki/tiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tiki/tiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/toml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/toml/toml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tornado/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/tornado/tornado.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/turtle/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/turtle/turtle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/vb/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/vb/vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/vbscript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/vbscript/vbscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/velocity/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/velocity/velocity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/verilog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/verilog/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/verilog/verilog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/xml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/xml/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/xml/xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/xquery/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/xquery/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/xquery/xquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/yaml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/yaml/yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/z80/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/codemirror/mode/z80/z80.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/colorpicker/bootstrap-colorpicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/cropper/cropper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/dataTables/dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/dataTables/dataTables.responsive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/dataTables/dataTables.tableTools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/dataTables/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/datapicker/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/diff_match_patch/COPYING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/diff_match_patch/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/diff_match_patch/javascript/diff_match_patch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/dropzone/dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/easypiechart/easypiechart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/easypiechart/jquery.easypiechart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/curvedLines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/jquery.flot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/jquery.flot.pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/jquery.flot.resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/jquery.flot.spline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/jquery.flot.symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/jquery.flot.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/flot/jquery.flot.tooltip.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/fullcalendar/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/fullcalendar/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/gritter/jquery.gritter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/gritter/jquery.gritter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/iCheck/icheck.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/idle-timer/idle-timer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jasny/jasny-bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jeditable/jquery.jeditable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-bg1251.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-cat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-dk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-hr1250.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-mne.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-sr-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-tw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-ua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/i18n/grid.locale-vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jqGrid/jquery.jqGrid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery-ui-i18n.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-af.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar-DZ.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-az.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-be.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bg.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-bs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ca.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-cy-GB.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-da.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-de.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-el.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-AU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-GB.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-en-NZ.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-es.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-et.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-eu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fa.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr-CH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-fr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-gl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-he.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-hy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-id.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-is.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-it.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ja.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ka.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-kk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-km.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ko.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ky.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lb.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lt.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-lv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-mk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ml.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ms.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nb.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl-BE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-nn.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-no.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-pt.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-rm.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ro.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ru.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sq.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr-SR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-sv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-ta.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-th.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tj.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-tr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-uk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-vi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-HK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/i18n/jquery.ui.datepicker-zh-TW.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jquery-ui/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jsKnob/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jsTree/jstree.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/justified-gallery/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/justified-gallery/jquery.justifiedgallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/justified-gallery/jquery.justifiedgallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/justified-gallery/jquery.justifiedgallery.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/justified-gallery/jquery.justifiedgallery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/metisMenu/jquery.metisMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/morris/morris.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/morris/raphael-2.1.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/nestable/jquery.nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/nouslider/jquery.nouislider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/pace/pace.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/peity/jquery.peity.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/rickshaw/rickshaw.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/rickshaw/vendor/d3.v3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/slimscroll/jquery.slimscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/slimscroll/jquery.slimscroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/sparkline/jquery.sparkline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/staps/jquery.steps.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/summernote/summernote.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/switchery/switchery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/tinycon/tinycon.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/toastr/toastr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/validate/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/plugins/video/responsible-video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/base.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/footer.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/menu.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/navbar.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" />
+    <list default="true" id="98184e6f-701f-46bb-91fd-f44e6aaaba97" name="Default" comment="WIP">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/partials/dictionary.html" afterPath="$PROJECT_DIR$/app/Resources/views/partials/dictionary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/partials/filters.html" afterPath="$PROJECT_DIR$/app/Resources/views/partials/filters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/partials/hierarchy.html" afterPath="$PROJECT_DIR$/app/Resources/views/partials/hierarchy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/partials/users.html" afterPath="$PROJECT_DIR$/app/Resources/views/partials/users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/config/services.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dictionary.js" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dictionary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dynamicTree.js" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dynamicTree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/filters.js" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/users.js" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -571,7 +28,52 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="102" lean-forward="false" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
+              <folding>
+                <element signature="e#44#104#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yml.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -582,17 +84,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$body</find>
-      <find>CATEGORY_OWNER</find>
-      <find>CATEGORY_FRANCHISE</find>
-      <find>addTrans</find>
-      <find>clearSelection</find>
-      <find>MESSAGE_EXPORT_REPORT_HIERARCHY_TITLE</find>
-      <find>definitions</find>
-      <find>competitors</find>
-      <find>theme</find>
       <find>METRIC_SAT</find>
-      <find>REGION</find>
       <find>user_po</find>
       <find>deleteUser</find>
       <find>GR</find>
@@ -609,9 +101,19 @@
       <find>&lt;form</find>
       <find>X</find>
       <find>list-</find>
-      <find>ldd</find>
       <find>hierarchyStructure</find>
       <find>addItem</find>
+      <find>%</find>
+      <find>&lt;</find>
+      <find>FILTER_aa</find>
+      <find>dictionary</find>
+      <find>METRIC_aaafsdfa</find>
+      <find>REGION</find>
+      <find>guzzle6</find>
+      <find>zeichen32</find>
+      <find>ldd</find>
+      <find>page</find>
+      <find>ConfigCreatorService</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -625,14 +127,10 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_24.html" />
         <option value="$PROJECT_DIR$/web/bundles/creador/js/dynamicTree.js" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Default/partials/hierarchy.html.twig" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/generated/file.yml" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Service/CreatorService.php" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/filtes.js" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Default/base.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/show.html.twig" />
-        <option value="$PROJECT_DIR$/app/generated/dashboard.yml" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/template/menu.html.twig" />
@@ -641,19 +139,33 @@
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/body.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/menu.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/base.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/navbar.html.twig" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/filters.js" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/users.js" />
         <option value="$PROJECT_DIR$/app/Resources/views/partials/filters.html" />
-        <option value="$PROJECT_DIR$/app/Resources/views/partials/users.html" />
         <option value="$PROJECT_DIR$/app/Resources/views/partials/dictionary.html" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dictionary.js" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Service/ConfigCreatorService.php" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dynamicTree.js" />
         <option value="$PROJECT_DIR$/app/Resources/views/partials/hierarchy.html" />
+        <option value="$PROJECT_DIR$/app/Resources/views/partials/users.html" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/users.js" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/filters.js" />
+        <option value="$PROJECT_DIR$/app/generated/dashboard.yml" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dictionary.js" />
+        <option value="$PROJECT_DIR$/vendor/zeichen32/gitlabapibundle/Zeichen32/GitLabApiBundle/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/HttpClient/Plugin/ApiVersion.php" />
+        <option value="$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/AbstractApi.php" />
+        <option value="$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Service/CreatorService.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" />
       </list>
     </option>
   </component>
@@ -680,6 +192,25 @@
     <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Composer.json</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Misconfiguration</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -696,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -727,14 +259,58 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="CreadorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CreadorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CreadorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CreadorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CreadorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chosen" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CreadorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -742,20 +318,21 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
-    <property name="SearchEverywhereHistoryKey" value="dyna&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;hier&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/hierarchy.html&#10;dic&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dictionary.js&#10;din&#9;null&#9;null&#10;filter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;users.h&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;lter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;configcre&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;base.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Template/base.html.twig&#10;au&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;fa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;defaulc&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;dict&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dictionary.js&#10;defa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;users.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/users.js&#10;service&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/CreatorService.php&#10;creators&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;servicy&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;user&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;d&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;inde&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Default/index.html.twig&#10;appk&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="yml.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/yml.html.twig&#10;para&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/parameters.yml&#10;ser&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/config/services.yml&#10;service.y&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;config.y&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/config.yml&#10;servicey&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;projects.php&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php&#10;projects.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php&#10;defaul&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;appk&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/AppKernel.php&#10;dashb&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/generated/dashboard.yml&#10;dic&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/dictionary.html&#10;user&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;efault&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;user.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/users.js&#10;defa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;dyna&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;hier&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/hierarchy.html&#10;din&#9;null&#9;null&#10;filter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;users.h&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;lter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;configcre&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;base.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Template/base.html.twig&#10;au&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;fa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;defaulc&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;dict&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dictionary.js&#10;users.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/users.js&#10;service&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/CreatorService.php&#10;creators&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;servicy&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;d&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;inde&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Default/index.html.twig" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/public" />
-      <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js" />
-      <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css" />
-      <recent name="$PROJECT_DIR$/app/Resources/views/partials" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/views" />
       <recent name="$PROJECT_DIR$/app/Resources/views" />
       <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/views/Default" />
       <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/CreadorBundle/Service" />
+      <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/public" />
+      <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js" />
+      <recent name="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css" />
+      <recent name="$PROJECT_DIR$/app/Resources/views/partials" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -786,6 +363,10 @@
       <workItem from="1501277369812" duration="264000" />
       <workItem from="1501508642717" duration="13890000" />
       <workItem from="1501529469484" duration="14826000" />
+      <workItem from="1501770021638" duration="4617000" />
+      <workItem from="1501789447568" duration="1458000" />
+      <workItem from="1501791188149" duration="2122000" />
+      <workItem from="1501795104410" duration="2095000" />
     </task>
     <task id="LOCAL-00001" summary="emprolijado">
       <created>1501624785408</created>
@@ -794,49 +375,55 @@
       <option name="project" value="LOCAL" />
       <updated>1501624785408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="inspinia">
+      <created>1501699134236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501699134236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="WIP">
+      <created>1501710857457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1501710857457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44260000" />
+    <option name="totallyTimeSpent" value="66966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16484717" sideWeight="0.49008498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.6904367" order="8" side_tool="false" content_ui="tabs" x="65" y="24" width="1855" height="1056" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50994766" sideWeight="0.5085683" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19955777" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40418848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="201" y="118" width="1320" height="775" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40458015" sideWeight="0.49143174" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4052356" sideWeight="0.49143174" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2704471" sideWeight="0.49806523" order="14" side_tool="false" content_ui="tabs" x="473" y="153" width="1182" height="718" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46898803" sideWeight="0.49806523" order="14" side_tool="false" content_ui="tabs" x="473" y="153" width="1182" height="718" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25428414" sideWeight="0.509915" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50994766" sideWeight="0.5085683" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.6904367" order="8" side_tool="false" content_ui="tabs" x="65" y="24" width="1855" height="1056" />
-      <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19955777" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3685864" sideWeight="0.66721946" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37696335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.4052356" sideWeight="0.49143174" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46898803" sideWeight="0.49806523" order="14" side_tool="false" content_ui="tabs" x="473" y="153" width="1182" height="718" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3068063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16484717" sideWeight="0.49008498" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25428414" sideWeight="0.509915" order="3" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -873,166 +460,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="emprolijado" />
-    <option name="LAST_COMMIT_MESSAGE" value="emprolijado" />
+    <MESSAGE value="inspinia" />
+    <MESSAGE value="WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Yaml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/generated/file.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/partials/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="91" lean-forward="false" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#44#104#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dictionary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#44#104#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/generated/file.yml" />
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/bootstrap-gtreetable.css" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_24.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/creador/js/dynamicTree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Yaml/Yaml.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="88" column="45" lean-forward="true" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1040,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="181" column="20" lean-forward="false" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,21 +496,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/generated/file.yml" />
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/CreatorService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
@@ -1079,15 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/generated/dashboard.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="461" column="44" lean-forward="false" selection-start-line="461" selection-start-column="44" selection-end-line="461" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,25 +529,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#126#132#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/body.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/body.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,17 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#44#104#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,39 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="83" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/partials/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="73" lean-forward="false" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="527" column="10" lean-forward="false" selection-start-line="527" selection-start-column="10" selection-end-line="527" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,25 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dictionary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/partials/dictionary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,24 +579,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dynamicTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/Template/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/BinaryFileResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/partials/dictionary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dictionary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/generated/dashboard.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="248" column="34" lean-forward="false" selection-start-line="248" selection-start-column="34" selection-end-line="248" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/partials/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23919">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zeichen32/gitlabapibundle/Zeichen32/GitLabApiBundle/DependencyInjection/Zeichen32GitLabApiExtension.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/zeichen32/gitlabapibundle/Zeichen32/GitLabApiBundle/DependencyInjection/Configuration.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/zeichen32/gitlabapibundle/Zeichen32/GitLabApiBundle/Zeichen32GitLabApiBundle.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/zeichen32/gitlabapibundle/Zeichen32/GitLabApiBundle/composer.json" />
+    <entry file="file://$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Model/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/HttpClient/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="314" column="30" lean-forward="false" selection-start-line="314" selection-start-column="30" selection-end-line="314" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig">
+    <entry file="file://$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/HttpClient/Plugin/ApiVersion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+        <state relative-caret-position="360">
+          <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/ConfigCreatorService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        <state relative-caret-position="162">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#127#172#0#PHP" expanded="true" />
             <marker date="1501698516997" expanded="true" signature="19433:19649" ph="..." />
             <marker date="1501698516997" expanded="true" signature="21808:22033" ph="..." />
             <marker date="1501698516997" expanded="true" signature="22053:22445" ph="..." />
@@ -1265,11 +722,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/dynamicTree.js">
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/CreatorService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/AbstractApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="74" column="83" lean-forward="false" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="102" lean-forward="false" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
+          <folding>
+            <element signature="e#44#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
