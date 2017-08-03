@@ -10,3 +10,7 @@ services:
     creator.configCreatorService:
         class: CreadorBundle\Service\ConfigCreatorService
         arguments: [@kernel]
+
+    creator.gitLabService:
+        class: CreadorBundle\Service\GitLabService
+        arguments: [%gitLabToken%, %gitLabUrl%]

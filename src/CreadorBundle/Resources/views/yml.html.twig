@@ -13,12 +13,24 @@
 
 {% block body %}
     <div class="starter-template">
+
+
         <form action="{{ path('creador_default_create') }}" id="createForm" method="post">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5>Dashboard Config</h5>
                 </div>
                 <div class="ibox-content">
+                    <div class="form-group">
+                        <label class="font-noraml">Basic example</label>
+                        <div class="input-group">
+                            <select data-placeholder="Choose a Country..." class="chosen-select" style="width:350px;" tabindex="2">
+                                {% for project in projects %}
+                                    <option value="{{ project.name }}">{{ project.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
@@ -64,43 +76,35 @@
 
 {% block javascript %}
     <script src="{{ asset("bundles/creador/js/plugins/iCheck/icheck.min.js") }}"></script>
+    <script src="{{ asset("bundles/creador/js/plugins/chosen/chosen.jquery.js") }}"></script>
     <script src="{{ asset("bundles/creador/js/dynamicTree.js") }}"></script>
     <script src="{{ asset("bundles/creador/js/dictionary.js") }}"></script>
     <script src="{{ asset("bundles/creador/js/users.js") }}"></script>
     <script src="{{ asset("bundles/creador/js/filters.js") }}"></script>
+    <script src="{{ asset("bundles/creador/js/ymlLoader.js") }}"></script>
 
     <script>
 
       filter.init();
 
-      var dictionaryTrans = {{ dictionary | raw }};
+
 
       $(document).ready(function(){
 
         {% if yml is defined %}
-
             var yml = JSON.parse('{{ yml | raw }}');
-
-            clientName = Object.keys(yml)[0];
-
-            $("#clientName").val(clientName);
-            client = yml[clientName];
-
-            $(client.users.types).each(function(k,v){
-              addUser(v, true, client.dictionary.es['USER_POSITION_'+v]);
-            });
-
-            $(client.metrics.filter).each(function(k,v){
-              var filterKeys = Object.keys(v);
-              var filterValues = Object.values(v);
-              filter.addFilter(filterKeys[0], client.dictionary.es[ filterValues[0] ] )
-            });
-
+            loadYML(yml);
         {% else %}
             addUser('REGION', false, 'Region');
             addUser('COUNTRY', false, 'Pais');
             addUser('STORE', false, 'Tienda');
             addUser('NON_HIERARCHICAL', false, 'NON_HIERARCHICAL');
+
+            var dictionaryTrans = {{ dictionary | raw }};
+            $.each(dictionaryTrans, function (key, value) {
+              addTrans(key,value, true);
+            });
+
         {% endif %}
 
         $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
@@ -120,13 +124,14 @@
 
         });
 
-        $.each(dictionaryTrans, function (key, value) {
-          addTrans(key,value, true);
-        });
-
         $('.i-checks').iCheck({
           checkboxClass: 'icheckbox_square-green',
           radioClass: 'iradio_square-green'
+        });
+
+        $(".chosen-select").chosen({
+          search_contains: true,
+          no_results_text: "Oops, nothing found!"
         });
 
       });
@@ -135,6 +140,7 @@
 
 {% block style %}
     <link href="{{ asset('bundles/creador/css/plugins/iCheck/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/creador/css/plugins/chosen/chosen.css') }}" rel="stylesheet">
     <style>
         .list-group-item {
             color: black;

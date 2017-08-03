@@ -19,10 +19,14 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+        $gitLabService = $this->get('creator.gitLabService');
+
+        $projects = $gitLabService->getAllProjects();
+
         $configCreatorService = $this->get('creator.configCreatorService');
         $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
 
-        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary]);
+        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary, 'projects' => $projects]);
     }
 
     /**
