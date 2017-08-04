@@ -2,6 +2,7 @@
 
 namespace CreadorBundle\Controller;
 
+use Gitlab\Exception\RuntimeException;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -17,16 +18,38 @@ class DefaultController extends Controller
     /**
      * @Route("/")
      */
-    public function indexAction()
+    public function indexAction(Request $request)
     {
-        $gitLabService = $this->get('creator.gitLabService');
+        $projectId = $request->get('project');
 
+        $gitLabService = $this->get('creator.gitLabService');
         $projects = $gitLabService->getAllProjects();
+
+        $ymlParsed = '';
+        $error = '';
+
+        if (!is_null($projectId)) {
+            $ymlContent = $gitLabService->getFileContent($projectId, 'app/config/dashboard.yml');
+            if ($ymlContent instanceof RuntimeException) {
+                $error = $ymlContent->getMessage();
+            } else {
+                $ymlParsed = Yaml::parse($ymlContent);
+            }
+        }
 
         $configCreatorService = $this->get('creator.configCreatorService');
         $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
 
-        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary, 'projects' => $projects]);
+        return $this->render(
+            'CreadorBundle::yml.html.twig',
+            [
+                'projectId' => $projectId,
+                'dictionary' => $dictionary,
+                'yml' => $ymlParsed,
+                'projects' => $projects,
+                'errors' => $error,
+            ]
+        );
     }
 
     /**
@@ -49,18 +72,44 @@ class DefaultController extends Controller
 
     /**
      * @Route("/test")
-     * @Method("GET")
      */
-    public function testAction()
+    public function testAction(Request $request)
     {
 
-        $filePath = $this->get('kernel')->getRootDir().'/generated/dashboard.yml';
-        $yml = json_encode(Yaml::parse(file_get_contents($filePath)));
+//        ldd($request);
 
-        $configCreatorService = $this->get('creator.configCreatorService');
-        $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
+        $projectId = $request->get('project');
+        if (is_null($projectId)) {
+            return $this->indexAction();
+        } else {
+            $gitLabService = $this->get('creator.gitLabService');
+            $projects = $gitLabService->getAllProjects();
 
-        return $this->render('CreadorBundle::yml.html.twig', ['dictionary' => $dictionary, 'yml'  => $yml]);
+            $ymlContent = $gitLabService->getFileContent($projectId, 'app/config/dashboard.yml');
+            if ($ymlContent instanceof RuntimeException) {
+                $error = $ymlContent->getMessage();
+                $ymlParsed = '{}';
+            } else {
+                $error = '';
+                $ymlParsed = Yaml::parse($ymlContent);
+            }
+
+
+            $configCreatorService = $this->get('creator.configCreatorService');
+            $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
+
+
+            return $this->render(
+                'CreadorBundle::yml.html.twig',
+                [
+                    'projectId' => $projectId,
+                    'dictionary' => $dictionary,
+                    'yml' => $ymlParsed,
+                    'projects' => $projects,
+                    'errors' => $error,
+                ]
+            );
+        }
 
     }
 }
