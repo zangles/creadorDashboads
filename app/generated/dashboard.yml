@@ -15,20 +15,20 @@ fsdfsd:
         definitions:
             aaafsdfa: METRIC_aaafsdfa
         hierarchy:
-            aaafsdfa: 
+            aaafsdfa:
         competitors:
-            definitions: 
-            hierarchy: 
+            definitions:
+            hierarchy:
             countries:
-                Argentina: 
+                Argentina:
         categories:
             definitions: []
             hierarchy: []
         ignore: []
-    region_metrics: 
-    themes: 
-    colors: 
-    country_codes: 
+    region_metrics:
+    themes:
+    colors:
+    country_codes:
     dictionary:
         es:
             METRIC_aaafsdfa: ''

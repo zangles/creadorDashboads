@@ -14,63 +14,86 @@
 {% block body %}
     <div class="starter-template">
 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Load config from project</h5>
+                    </div>
+                    <form action="{{ path('creador_default_index') }}" id="createForm" method="POST">
+                        <div class="ibox-content">
+                                <div class="form-group">
+                                    <label for="exampleInputFile">GitLab Projects</label><br>
+                                    <select data-placeholder="Choose a project..." class="form-control chosen-select" name="project" style="width:350px;" tabindex="2">
+                                        {% for project in projects %}
+                                            <option {% if projectId == project.id %} selected {% endif %} value="{{ project.id }}">{{ project.name }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
 
-        <form action="{{ path('creador_default_create') }}" id="createForm" method="post">
-            <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>Dashboard Config</h5>
-                </div>
-                <div class="ibox-content">
-                    <div class="form-group">
-                        <label class="font-noraml">Basic example</label>
-                        <div class="input-group">
-                            <select data-placeholder="Choose a Country..." class="chosen-select" style="width:350px;" tabindex="2">
-                                {% for project in projects %}
-                                    <option value="{{ project.name }}">{{ project.name }}</option>
-                                {% endfor %}
-                            </select>
+                            {% if (errors != '') %}
+                                <p class="bg-danger">{{  errors }}</p>
+                            {% endif %}
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="exampleInputName2">Client Name</label>
-                                <input type="text" class="form-control" id="clientName" name="clientName" placeholder="Client Name">
-                            </div>
+                        <div class="ibox-footer text-right">
+                            <button class="btn btn-primary" type="submit">Load</button>
                         </div>
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="checkbox" class="i-checks" name="test" value="test" checked> Duplicate content for Test
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="panel-body" style="">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#filter" aria-controls="home" role="tab" data-toggle="tab">Filtros</a></li>
-                            <li role="presentation"><a href="#userPosition" aria-controls="home" role="tab" data-toggle="tab">User Positions</a></li>
-                            <li role="presentation"><a href="#hierarchy" aria-controls="profile" role="tab" data-toggle="tab">Hierarchy</a></li>
-                            <li role="presentation"><a href="#dictionary" aria-controls="messages" role="tab" data-toggle="tab">Dictionary</a></li>
-                        </ul>
-                        <!-- Tab panes -->
-                        <div class="tab-content" style="height: 490px; max-height: 490px; overflow-y: auto; overflow-x: hidden ">
-                            <div role="tabpanel" class="tab-pane active" id="filter">
-                                {% include 'partials/filters.html' %}
-                            </div>
-                            <div role="tabpanel" class="tab-pane" id="userPosition">
-                                {% include 'partials/users.html' %}
-                            </div>
-                            <div role="tabpanel" class="tab-pane" id="hierarchy">
-                                {% include 'partials/hierarchy.html' %}
-                            </div>
-                            <div role="tabpanel" class="tab-pane" id="dictionary">
-                                {% include 'partials/dictionary.html' %}
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
-        </form>
+            <div class="col-md-8">
+                <form action="{{ path('creador_default_create') }}" id="createForm" method="post">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Dashboard Config</h5>
+                        </div>
+                        <div class="ibox-content">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputName2">Client Name</label>
+                                        <input type="text" class="form-control" id="clientName" name="clientName" placeholder="Client Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="checkbox" class="i-checks" name="test" value="test" checked> Duplicate content for Test
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel-body" style="">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#filter" aria-controls="home" role="tab" data-toggle="tab">Filtros</a></li>
+                                    <li role="presentation"><a href="#userPosition" aria-controls="home" role="tab" data-toggle="tab">User Positions</a></li>
+                                    <li role="presentation"><a href="#hierarchy" aria-controls="profile" role="tab" data-toggle="tab">Hierarchy</a></li>
+                                    <li role="presentation"><a href="#dictionary" aria-controls="messages" role="tab" data-toggle="tab">Dictionary</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content" style="height: 490px; max-height: 490px; overflow-y: auto; overflow-x: hidden ">
+                                    <div role="tabpanel" class="tab-pane active" id="filter">
+                                        {% include 'partials/filters.html' %}
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="userPosition">
+                                        {% include 'partials/users.html' %}
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="hierarchy">
+                                        {% include 'partials/hierarchy.html' %}
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="dictionary">
+                                        {% include 'partials/dictionary.html' %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
     </div>
 {% endblock %}
 
@@ -91,9 +114,11 @@
 
       $(document).ready(function(){
 
-        {% if yml is defined %}
-            var yml = JSON.parse('{{ yml | raw }}');
-            loadYML(yml);
+        {% if yml is defined  %}
+            {% if yml != '' %}
+                var yml = {{ yml|json_encode()| raw }};
+                loadYML(yml);
+            {% endif %}
         {% else %}
             addUser('REGION', false, 'Region');
             addUser('COUNTRY', false, 'Pais');
