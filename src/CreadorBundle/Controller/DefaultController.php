@@ -28,6 +28,7 @@ class DefaultController extends Controller
         $ymlParsed = '';
         $error = '';
 
+        $dictionary = [];
         if (!is_null($projectId)) {
             $ymlContent = $gitLabService->getFileContent($projectId, 'app/config/dashboard.yml');
             if ($ymlContent instanceof RuntimeException) {
@@ -35,10 +36,10 @@ class DefaultController extends Controller
             } else {
                 $ymlParsed = Yaml::parse($ymlContent);
             }
+        } else {
+            $configCreatorService = $this->get('creator.configCreatorService');
+            $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
         }
-
-        $configCreatorService = $this->get('creator.configCreatorService');
-        $dictionary = json_encode($configCreatorService->get_BaseDictionaryESConfig());
 
         return $this->render(
             'CreadorBundle::yml.html.twig',

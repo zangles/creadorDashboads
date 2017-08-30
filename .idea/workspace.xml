@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" line="30" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="98184e6f-701f-46bb-91fd-f44e6aaaba97" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/generated/dashboard.yml" afterPath="$PROJECT_DIR$/app/generated/dashboard.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/style.css" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" afterPath="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php" afterPath="$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="e#44#82#0#PHP" expanded="true" />
               </folding>
@@ -50,7 +49,7 @@
       <file leaf-file-name="GitLabService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="738">
               <caret line="46" column="70" lean-forward="false" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
               <folding>
                 <element signature="e#127#165#0#PHP" expanded="true" />
@@ -59,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yml.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="yml.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="414">
+              <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -72,7 +71,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bundles/creador/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="60354">
               <caret line="3353" column="1" lean-forward="false" selection-start-line="3353" selection-start-column="1" selection-end-line="3353" selection-end-column="1" />
               <folding />
             </state>
@@ -82,8 +81,8 @@
       <file leaf-file-name="ymlLoader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>GR:</find>
       <find>GT</find>
       <find>METRIC_gfdgd</find>
       <find>USER_POSITION_STORE</find>
@@ -130,6 +128,7 @@
       <find>request</find>
       <find>getFileContent</find>
       <find>ibox-content</find>
+      <find>n get_BaseDictionaryESConfig</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,10 +180,10 @@
         <option value="$PROJECT_DIR$/app/generated/dashboard.yml" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/test.html.twig" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js" />
         <option value="$PROJECT_DIR$/web/bundles/creador/css/style.css" />
         <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js" />
+        <option value="$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -206,10 +205,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="308" />
-    <option name="width" value="1366" />
-    <option name="height" value="772" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,7 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,6 +252,30 @@
             <path>
               <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generated" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creadorDashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="creadorDashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -294,6 +316,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +324,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML" />
-    <property name="SearchEverywhereHistoryKey" value="style.c&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/web/bundles/creador/css/style.css&#10;ymll&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/ymlLoader.js&#10;crea&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/CreatorService.php&#10;templa&#9;null&#9;null&#10;conf&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/config.yml&#10;dash&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/generated/dashboard.yml&#10;paramet&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/parameters.yml.dist&#10;git&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/GitLabService.php&#10;yml.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/yml.html.twig&#10;para&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/parameters.yml&#10;ser&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/config/services.yml&#10;service.y&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;config.y&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/config.yml&#10;servicey&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;projects.php&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php&#10;projects.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php&#10;defaul&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;appk&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/AppKernel.php&#10;dashb&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/generated/dashboard.yml&#10;dic&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/dictionary.html&#10;user&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;efault&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;user.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/users.js&#10;defa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;dyna&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;hier&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/hierarchy.html&#10;din&#9;null&#9;null&#10;filter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;users.h&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;lter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;configcre&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;base.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Template/base.html.twig&#10;au&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;fa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;defaulc&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;dict&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dictionary.js&#10;users.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/users.js&#10;service&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/CreatorService.php&#10;creators&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;servicy&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;d&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;inde&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Default/index.html.twig" />
+    <property name="SearchEverywhereHistoryKey" value="configc&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;defau&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;ymllo&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/ymlLoader.js&#10;style.c&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/web/bundles/creador/css/style.css&#10;ymll&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/ymlLoader.js&#10;crea&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/CreatorService.php&#10;templa&#9;null&#9;null&#10;conf&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/config.yml&#10;dash&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/generated/dashboard.yml&#10;paramet&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/parameters.yml.dist&#10;git&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/GitLabService.php&#10;yml.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/yml.html.twig&#10;para&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/parameters.yml&#10;ser&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/config/services.yml&#10;service.y&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;config.y&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/config.yml&#10;servicey&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;projects.php&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php&#10;projects.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Projects.php&#10;defaul&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;appk&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/AppKernel.php&#10;dashb&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/generated/dashboard.yml&#10;dic&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/dictionary.html&#10;user&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;efault&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;user.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/users.js&#10;defa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;dyna&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;hier&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/hierarchy.html&#10;din&#9;null&#9;null&#10;filter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;users.h&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/Resources/views/partials/users.html&#10;lter.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/filters.js&#10;configcre&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;base.&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Template/base.html.twig&#10;au&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;fa&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;defaulc&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Controller/DefaultController.php&#10;dict&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dictionary.js&#10;users.j&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/users.js&#10;service&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/CreatorService.php&#10;creators&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Service/ConfigCreatorService.php&#10;servicy&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/app/config/services.yml&#10;d&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/public/js/dynamicTree.js&#10;inde&#9;FILE&#9;file:///var/www/html/azs/creadorDashboard/src/CreadorBundle/Resources/views/Default/index.html.twig" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/m4tthumphrey/php-gitlab-api/lib/Gitlab/Api/Repositories.php" />
   </component>
   <component name="RecentsManager">
@@ -351,7 +374,11 @@
       <workItem from="1501789447568" duration="1458000" />
       <workItem from="1501791188149" duration="2122000" />
       <workItem from="1501795104410" duration="2782000" />
-      <workItem from="1501861780464" duration="15493000" />
+      <workItem from="1501861780464" duration="20968000" />
+      <workItem from="1502210226700" duration="83000" />
+      <workItem from="1502375733287" duration="618000" />
+      <workItem from="1504120393405" duration="45000" />
+      <workItem from="1504120559718" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="emprolijado">
       <created>1501624785408</created>
@@ -381,22 +408,29 @@
       <option name="project" value="LOCAL" />
       <updated>1501797205501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WIP">
+      <created>1501882605019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501882605019</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83146000" />
+    <option name="totallyTimeSpent" value="89383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="308" width="1366" height="772" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2248697" sideWeight="0.49008498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16484717" sideWeight="0.49008498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32460734" sideWeight="0.6904367" order="8" side_tool="false" content_ui="tabs" x="65" y="24" width="1855" height="1056" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50994766" sideWeight="0.5085683" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19955777" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4052356" sideWeight="0.49143174" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40450644" sideWeight="0.49143174" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4688841" sideWeight="0.49806523" order="14" side_tool="false" content_ui="tabs" x="473" y="153" width="1182" height="718" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25428414" sideWeight="0.509915" order="3" side_tool="true" content_ui="tabs" />
@@ -615,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6210">
           <caret line="345" column="20" lean-forward="false" selection-start-line="345" selection-start-column="20" selection-end-line="345" selection-end-column="20" />
-          <folding>
-            <element signature="e#25#52#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="169" column="35" lean-forward="true" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="5330" column="29" lean-forward="false" selection-start-line="5330" selection-start-column="29" selection-end-line="5330" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,23 +734,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/test.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/test.html.twig" />
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="256" column="91" lean-forward="false" selection-start-line="256" selection-start-column="91" selection-end-line="256" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,34 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/generated/dashboard.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/ConfigCreatorService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="56" />
-          <folding>
-            <marker date="1501698516997" expanded="true" signature="19433:19649" ph="..." />
-            <marker date="1501698516997" expanded="true" signature="21808:22033" ph="..." />
-            <marker date="1501698516997" expanded="true" signature="22053:22445" ph="..." />
-            <marker date="1501698516997" expanded="true" signature="34518:34734" ph="..." />
-            <marker date="1501698516997" expanded="true" signature="36893:37118" ph="..." />
-            <marker date="1501698516997" expanded="true" signature="37138:37530" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,13 +771,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/GitLabService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="738">
           <caret line="46" column="70" lean-forward="false" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
           <folding>
             <element signature="e#127#165#0#PHP" expanded="true" />
@@ -796,27 +784,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="e#44#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bundles/creador/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="60354">
           <caret line="3353" column="1" lean-forward="false" selection-start-line="3353" selection-start-column="1" selection-end-line="3353" selection-end-column="1" />
           <folding />
         </state>
@@ -824,9 +794,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/views/yml.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="414">
+          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Resources/public/js/ymlLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Service/ConfigCreatorService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/generated/dashboard.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="98" column="54" lean-forward="true" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreadorBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#82#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
